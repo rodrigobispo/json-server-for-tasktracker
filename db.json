@@ -1,9 +1,23 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Tasks Tracker Dev"
+    },
+    {
+      "id": 2,
+      "nome": "Estudo de TypeScript"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "tarefas": [
+    {
+      "duracaoEmSegundos": 8,
+      "descricao": "Verificando ambiente",
+      "projeto": {
+        "id": 2,
+        "nome": "Estudo de TypeScript"
+      },
+      "id": 1
+    }
+  ]
 }
