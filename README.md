@@ -1,3 +1,8 @@
+## Descrição
+* O projeto é baseado no json-server citado nos itens abaixo.
+* O arquivo db.json foi modificado para atender a um projeto de estudo ["task tracker"](https://github.com/rodrigobispo/tracking-tasks-vue3), construído em VueJs.
+* Entretanto, a publicação do projeto foi realizada no Render, demonstrado [aqui](https://json-server-tasktracker.onrender.com).
+
 ## Deploy JSON Server to Vercel
 
 A template to deploy [JSON Server](https://github.com/typicode/json-server) to [Vercel](https://vercel.com), allow you to run fake REST API online!
